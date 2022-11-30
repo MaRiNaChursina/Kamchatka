@@ -1,0 +1,56 @@
+.P1_big{
+    padding-top: 30px;
+    font-size: 35px;
+    
+}
+
+.Content{
+    padding-left: 100px;
+}
+.additional1,.additional2,.additional3{
+    padding-top: 20px;
+    width: 500px;
+    border-bottom: 2px solid rgb(80, 79, 79);
+}
+
+.A1_l,.A2_l,.A3_l{
+    float: right;
+    /* width: 300px; */
+    margin-top: -40px;
+    padding-left: 180px;
+}
+.Img1{
+    float: left;
+    padding-top: 30px;
+}
+.Img2{
+    float: left;
+    /* padding-top: 30px; */
+    padding-left: 50%;
+    margin-top: -235px;
+}
+.P2{
+    padding-top: 8px;
+    font-size: 25px;
+    padding-left: 40px;
+    color: rgb(43, 143, 110);
+}
+
+.P3{
+    float:left;
+    padding-top: 8px;
+    font-size: 25px;
+    padding-left: 53%;
+    margin-top: -245px;
+}
+
+li{
+    padding-top: 15px;
+}
+
+.Ul2{
+    float:left;
+    padding-top: 45px;
+    padding-left: 53%;
+    margin-top: -225px;
+}

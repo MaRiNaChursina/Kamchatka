@@ -1,0 +1,90 @@
+﻿html{
+    overflow-x:hidden;
+overflow-y:hidden;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.Content{
+    background: 
+    linear-gradient(to bottom,rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0)80%),
+		url("./img/book.png");
+	background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-top: -4%; 
+     margin-bottom: -5%;
+}
+.P1{
+    font-size: 25px;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+ .form{
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 35%; */
+    width: 600px;
+    background-color: rgba(240, 248, 255, 0.205);
+} 
+.form_input {
+    width: 300px;
+    padding: 0 0 10px 0;
+    border: none; 
+    border-bottom: 1px solid #1a1a1a; 
+    background-color: transparent; 
+    outline: none;
+    transition: 0.3s;
+
+}
+
+.form_input:focus {
+    box-shadow: 0 3px 0 0 rgb(94, 93, 93);
+}
+
+.additional1,.additional2,.additional3{
+    /* padding-top: 20px; */
+    margin-top: -35px;
+    padding-left: 20px;
+    width: 500px;
+}
+
+.A1_l,.A2_l,.A3_l{
+    float: right;
+    /* width: 300px; */
+    margin-top: -40px;
+    padding-left: 180px;
+}
+
+.P11{
+				color :rgb(0, 0, 0,0);
+				padding-top:100%;
+}
+

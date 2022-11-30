@@ -1,0 +1,87 @@
+﻿
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+body{
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.849)),
+		url("./img/BACK.png");
+	background-size: cover;
+	background-attachment: fixed;
+    color: white;
+    
+}
+.text {
+    margin-top: 6em;
+    padding-left: 100px;   
+}
+
+.headerText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+}
+.imgDataTrevel{
+    position: relative;  
+    margin-top: -25px;
+}
+
+.dataTrevel{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    top: 3%; 
+    left: 225px; 
+    transform: translate(-50%, -50%);
+     
+}
+
+.description{
+    font-size: 20px;
+}
+
+.link p{
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+
+.link img{
+    padding-left: 2em;
+}
+
+.Script{
+    /*float: right;*/
+    font-size: 20px;
+    /*text-align: right;*/
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    padding-left: 100px;
+}
+

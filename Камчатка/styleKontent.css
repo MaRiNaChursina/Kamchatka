@@ -1,0 +1,347 @@
+
+html{
+    overflow-x:hidden;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.KontentGl{
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)),
+		url("./img/K_1.jpg");
+	background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%; 
+     
+    
+     
+}
+.Kontent_1 {
+    margin-top: -15px;
+     padding-left: 100px;    
+}
+
+.Kontent_Zagolovok p{
+    font-size: 40px;
+}
+
+.Kontent_Name{
+    font-size: 21px;
+    color: rgba(32, 32, 32, 0.753);
+    margin-top: -15px;
+}
+
+.Kontent_opisanie {
+    font-size: 13px;
+    color: rgba(56, 55, 55, 0.692);
+    margin-top: 30px;
+}
+
+.Kontent_fb p{
+    font-size: 190px;
+    color: rgba(43, 42, 42, 0.322);
+    float: right;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    /* margin-right: -45px; */
+}
+
+.Kontent_liner{
+    float: right;
+    margin-top: -200px;
+    margin-left:50%
+}
+.Kontent_Viki {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 400px;
+    padding-left: 100px;
+}
+
+.Kontent_Tsitata {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.849);
+    padding-left: 100px;
+}
+
+.Kontent_OtzevTs{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.952);
+    padding-left: 100px;
+    margin-top: -20px;
+}
+
+.Kontent_img{
+    margin-top: 60px;
+}
+
+.Kontent_img td{
+    float: block;
+    padding-right: 20px;
+}
+
+.Kontent_opimg p{
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+}
+
+.Kontent_False{
+    padding-bottom: 50px;
+    color: rgba(240, 248, 255, 0);
+}
+
+.KontentG2{
+    background: 
+    linear-gradient(to bottom,rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.63)80%),
+		url("./img/K_2.jpg");
+	background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-top: -4%; 
+     height: 779px;
+}
+
+.KontentG2W{
+    padding-top: 70px;
+    width: 530px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+}
+.P2_Big{
+    font-size: 40px;
+}
+.G2Day{
+    color:orangered;
+}
+.P2_littel{
+    padding-top: 25px;
+}
+.KontentG3 {
+    
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-top: -85px; 
+}
+.KontentG5{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-top: 4%; 
+}
+.P3_Big{
+    padding-top: 120px;
+    padding-left: 100px;
+    font-size: 40px;
+    /* width: 530px; */
+}
+.Img3{
+    float: right;
+   width: 600px;
+   margin-top: -80px;
+}
+.P3_littel{
+    /* width: 530px; */
+    padding-left: 100px;
+    color: black;
+}
+
+.P3_littel1{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.KontentG4{
+    
+    background-color: rgb(214, 212, 212);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     text-align: center;
+     /* margin-top: -4%;  */
+}
+.P4_Big{
+    padding-left: 100px;
+    font-size: 40px;
+    padding-top: 20px;
+    
+}
+.Table4{
+    height: 300px;
+    text-align: left;
+    width: 250px;
+    /* border: 2px solid rgb(226, 226, 226); */
+    box-shadow: 0 0 7px rgb(94, 93, 93);
+    background-color: rgb(252, 252, 252);
+    font-size: 12px;
+}
+table{
+    padding-left: 50px;  
+    padding-top: 20px;
+    text-align: center;
+
+    display: inline-block;
+}
+.Table4>p{
+    padding-left: 10px;
+}
+td{
+    padding-right: 50px;
+}
+.Img4{
+    width: 250px;
+}
+.Img5{
+    width: 100%;
+    margin-bottom: -40px;
+}
+.P4_littel{
+    font-size: 15px;
+}
+.KontentG5>p,.KontentG6>p,.KontentG8>p{
+    padding-left: 100px;
+}
+.P5_Big,.P7_6_Big{
+    padding-top: 70px;
+    font-size: 40px;
+}
+.P6_Big{padding-left: 100px;padding-top: 70px;
+    font-size: 40px;}
+.P6_littel{
+    width: 500px;
+    padding-left: 100px;
+}
+.Img6{
+    float: right;
+    width: 300px;
+    margin-top: -140px;
+    margin-right: 20px;
+}
+.KontentG7{
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)),
+		url("./img/K_6.png");
+	background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-top: -4%; 
+     color: rgb(253, 253, 253);
+     height: 2350px; 
+}
+.Day_5{
+    float: right;
+    /* text-align: right; */
+    padding-top: 120px;
+    width: 600px;
+    margin-right: -16%;
+}
+
+.Day_6{
+    padding-top: 650px;
+    padding-left: 100px;
+    width: 600px;
+}
+.KontentСloud1>img{
+    width: 1900px;
+    height: 450px;
+}
+.P7_Big, .P9_Big{
+ font-size: 40px;
+}
+.P7_6_medium{
+    font-size: 20px;
+}
+.additional1,.additional2{
+    padding-top: 20px;
+    width: 500px;
+    border-bottom: 2px solid rgb(80, 79, 79);
+}
+
+.A1_l,.A2_l{
+    float: right;
+    width: 300px;
+    margin-top: -40px;
+    color: rgb(122, 122, 122);
+}
+.KontentG8{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-top: -250px;
+}
+
+.Dop8{
+    float: right;
+    padding-top: 80px;
+    padding-right: 30%;
+}
+.P8_littel{
+    width: 600px;
+}
+.Img8{
+    float: right;
+    width: 650px;
+    margin-top: -650px;
+}
+.P8_Big{
+    padding-top: 70px;
+    font-size: 40px;
+    width: 700px;
+}
+.KontentG9{
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)),
+		url("./img/K_9.png");
+	background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+     margin-right: -1%;
+     margin-bottom: -25px;
+     /* margin-top: -4%;  */
+     color: rgb(253, 253, 253);
+}
+.G9_center{
+   /* text-align: center;  */
+    padding-top: 25%;
+    width: 500px;
+    padding-left: 30%;
+}
+
+.KontentСloud>img{
+    width: 1900px;
+    height: 255px;
+}

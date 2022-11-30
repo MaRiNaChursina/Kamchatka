@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">    
+    <title>Камчатка</title>
+    <link rel="shortcut icon" href="logo-img1.png" type="image/x-icon">
+    <link rel="stylesheet" href="bookings.css">
+    <link rel="stylesheet" href="headerStyle.css">
+    <script src="jsForm.js"></script>
+    <script src="preolader.js"></script>
+    </head>
+<body>
+  <div id='preloader'>
+    <img src="./img/loader.gif" alt="preloader">
+</div>
+  <div class="header">
+
+    <div class="logo">
+        <img src="logo-img1.png">
+        <p class="name-logo">КАМЧАТКА<br> ТУР</p>
+    </div> 
+
+    <div class="menu">
+      <div class="nav">
+        <a href="Index.html">Главная</a>
+        <a href="timetable.html">Расписание тура</a>
+        <a href="Price.html">Стоимость</a>
+        <a href="aboutKompani.html">Команда</a>
+      </div>
+    </div> 
+  </div>
+  <div class="Content">
+    <p class="P1">Онлайн-заявка</p>
+    
+    <form name="form1" class="form" method="get" action="add.asp">
+      <p>Имя участника</p>
+        <input type="text" name="name1" size="20" class="form_input" placeholder="Имя" required pattern="^[А-ЯA-Z][a-zа-я\.]{1,20}$" title="Введите имя с большой буквы">
+        <p>Количество человек</p>
+        <input type="number" name="number" size="20" class="form_input" placeholder="1" min="1" max="30" required>
+        <p>Ваша почта</p>
+        <input type="text" name="mail" size="20" class="form_input" placeholder="Имя" required pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" title="xx@xxx.xx и английскими буквами">
+        <p>Тариф</p>
+        <input type="radio" name="radio" class="form_radio" value="Базовый (для камчадал)" required>
+        <div class="additional1">
+          <p class="A1_b">Базовый (для камчадал)</p>
+          <p class="A1_l"><b>79 000 руб</b> </p>
+        </div>
+        <input type="radio" name="radio" class="form_radio" value="Базовый + проживание">
+        <div class="additional2">
+          <p class="A2_b">Базовый + проживание</p>
+          <p class="A2_l"><b>99 000 руб</b> </p>
+        </div>
+        <input type="radio" name="radio" class="form_radio" value="Базовый + проживание + долина гейзеров">
+        <div class="additional3">
+          <p class="A3_b">Базовый + проживание + долина гейзеров</p>
+          <p class="A3_l"><b>179 000 руб</b> </p>
+        </div>
+        <p>Даты тура</p>
+        <input type="date" name="data" class="form_input" min="2023-07-20" max="2023-07-25" required>
+        <p>Комментарий</p>
+        <input type="text" name="coment" class="form_input" >
+        <input type="submit" value="Отправить" onclick="proverka()">
+        <input type="button" src="/default.asp" value="переход к Бд">
+        <a href="default.asp">переход к Бд</a>
+      </form>
+      <p class="P11">l</p>
+  </div>
+  
+  </body>
+  </html>

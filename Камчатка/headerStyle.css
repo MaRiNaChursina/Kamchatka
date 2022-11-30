@@ -1,0 +1,70 @@
+.header{
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: auto;
+    padding-right: 17px;
+    padding-bottom: 40px;
+    width: 100%;
+   background: linear-gradient(to bottom, rgb(255, 255, 255) 10%, transparent 100%);
+   
+  
+}
+
+.logo img{
+     float: left;
+    padding-left: 10%; 
+    padding-top: 30px;
+    
+}
+
+.logo p{
+    font-size: 25px;
+    /* padding-left: 160px; */
+    padding-top: 25px;
+    color: rgb(7, 80, 46);
+    
+}
+.logo a{
+    text-decoration: none;
+}
+
+.menu {
+    font-family:roboto ;
+  font-size: 20px;
+  
+  text-align: right;
+  margin-bottom: 10px;
+  /* margin-right: 3em;  */
+  margin-top: -170px; 
+}
+
+.menu a{
+    /* padding-right: 5%;  */
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgb(7, 80, 46);
+    padding-left: 5%;
+    
+}
+
+.nav{
+    /* margin-right: 12em;  */
+    padding-top: 40px;
+    margin-top: 90px;
+}
+
+.buttonBooking{
+    border: 1px solid rgb(7, 80, 46);
+    border-radius: 10px;
+    background-color: rgba(128, 0, 128, 0);
+    color: rgb(7, 80, 46);
+    font-family:roboto ;
+    font-size: 20px;
+}
+.buttonBooking:hover{
+    background-color:rgb(7, 80, 46) ;
+    color: rgb(255, 255, 255);
+    border-radius: 5px 25px ;
+}
+
+

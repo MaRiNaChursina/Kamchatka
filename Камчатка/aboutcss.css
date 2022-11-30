@@ -1,0 +1,26 @@
+html{
+    overflow-x:hidden;
+}
+.Kompani_body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -15px;
+    padding-left: 100px;  
+}
+
+.Kompani_Zagalovok{
+    font-size: 65px;
+    margin-top: -80px;
+}
+
+.Kompani_Opis{
+    color: rgba(0, 0, 0, 0.63);
+    margin-top: -45px;
+}
+
+.Kompani_Komand td{
+    padding-right: 50px;
+}
+.Kompani_Komand{
+    /* margin-left: 100px; */
+    margin-top: 35px;
+}
